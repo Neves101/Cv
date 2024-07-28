@@ -3,12 +3,19 @@ body{
 }
 .Info-Perso{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 70px;
+    color: white;
     background-color: #2c1d27;
-
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 h3{
     background-color: #dbc2a4;
+}
+.moi{
+color: white;
 }
