@@ -1,3 +1,4 @@
+
 header{
     text-align: center;
     color: white;
@@ -83,4 +84,15 @@ footer{
 }
 footer img:hover{
 opacity: 80%;
+}
+=======
+body{
+    background-color:#782221  ;
+}
+#Info-Perso{
+    background-color: #2c1d27
+    ;
+}
+h3{
+    background-color: #dbc2a4;
 }
