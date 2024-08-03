@@ -1,3 +1,91 @@
+
+header{
+    text-align: center;
+    color: white;
+}
+body{
+    margin: 0 auto;
+    background-color:#782221  ;
+    width: 100%;
+    max-width: 1160px;
+    padding:20px
+}
+.body{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.Info-Perso{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    height: 70px;
+    color: white;
+    background-color: #2c1d27;
+}
+.Info-Perso:hover{
+    text-decoration: underline;
+}
+p{
+    text-indent: 35px;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h3{
+    background-color: #dbc2a4;
+    color: black;
+}
+.About{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 30px;
+    color: white;
+}
+.Professionnel{
+    width: 6000px;
+    background-color: white;
+    border-right: 2px solid black;
+}
+.Professionnel :hover{
+    border-right: 2px solid #782221;
+}
+section{
+    margin: 20px
+}
+h1, h2, h3{
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header img{
+    height: 200px;
+    border-radius: 95px 95px 95px 95px;
+    box-shadow:  2px 2px 2px 2px rgb(0,0,0);
+    cursor: zoom-in;
+}
+footer img{
+    height: 50px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10PX 475px ;
+}
+footer img:hover{
+opacity: 80%;
+}
+=======
 body{
     background-color:#782221  ;
 }
